@@ -1,0 +1,21 @@
+# subset of the environment built for data-literacy
+# This is used to analyze LASAN (LA Sanitation Dept) requests
+name: lasan
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - jupyterlab=3
+  - nodejs
+  - matplotlib
+  - ipywidgets
+  - pandas
+  - geopandas
+  - pyproj
+  - Shapely
+  - folium
+  - branca
+  - pyarrow
+  - fastparquet
+
